@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #000000;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+  
+/* RESET */
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+a:link, a:visited, a:active {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* NAVBAR */
+.navbar {
+  z-index: 1000;
+  position: fixed;
+  background-color: lightblue;
+}
+
+.navbar-brand {
+  width: 120px;
+}
+
+.navbar-toggler {
+  color: lightblue;
+  border: none;
+}
+
+.nav-link {
+  font-weight: 600;
+  margin: 0px 8px;
+}
+
+.nav-link:hover {
+  font-weight: 800;
+  color: whitesmoke;
+}
+
+.btn-cart-widget {
+  order: 100;
+  background-color: lightblue;
+  border: none;
+}
+
+.icon-cart-widget {
+  width: 26px;
+  margin-right: 6px;
+}
+
+/* MAIN */
+.app-content {
+  flex-grow: 1;
+  padding-top: 100px;
+}
+
+.title-category {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #40372B;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form-label {
+  font-size: 1rem;
+  padding: 0px;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  border: 1px solid rgba(64, 55, 43, 0.5);
+}
+
+.form-control::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.form-control:focus {
+  border-color: lightblue;
+}
+
+.form-select {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.form-select:focus {
+  border-color: lightblue;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-container form div {
+  width: 350px;
+}
+
+.error-session {
+  font-weight: 500;
+  font-size: 1rem;
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.message-session {
+  font-weight: 500;
+  font-size: 1rem;
+  color: lightblue;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-signup-container, .btn-login-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.btn-signup, .btn-login, .btn-add-product {
+  width: 250px;
+  height: 46px;
+  background-color: lightblue;
+  color: lightblue;
+  font-weight: 500;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn-signup:hover, .btn-login:hover, .btn-add-product:hover {
+  background-color: lightblue;
+}
+
+.btn-signup:active, .btn-login:active, .btn-add-product:active {
+  background-color: lightblue ;
+}
+
+.btn-signup:disabled, .btn-login:disabled, .btn-add-product:disabled {
+  background-color: lightblue;
+}
+
+.btn-login-signup-container, .btn-signup-login-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-login-signup, .btn-signup-login {
+  width: 250px;
+  height: 46px;
+  background-color: blue;
+  color:lightblue;
+  font-weight: 500;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  text-decoration: underline;
+}
+
+.btn-login-signup:hover, .btn-signup-login:hover {
+  font-weight: 700;
+}
+
+.btn-login-signup:active, .btn-signup-login:active {
+  color: lightblue;
+  font-weight: 700;
+}
+
+.btn-login-signup:disabled, .btn-signup-login:disabled {
+  color: lightblue;
+}
+
+footer {
+  background-color: lightblue;
+  margin-top: 2rem;
+}
+
+.logo-footer {
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+.titles-footer {
+  font-family: "Paytone One", sans-serif;
+  font-size: 1.4rem;
+  color: black;
+  margin-top: 38px;
+}
+
+.text-footer {
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.social-media-footer:hover a {
+  font-weight: 800;
+  color: lightblue;
+}
+
+.icon-social-media-footer {
+  width: 25px;
+  margin-right: 14px;
+}
+
+.copyright-footer {
+  font-weight: 500;
+  font-size: 0.75rem;
+  color: black;
+  padding: 12px;
+  margin-top: 8px;
+  text-align: center;
+} 
+
