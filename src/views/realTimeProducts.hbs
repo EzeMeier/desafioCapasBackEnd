@@ -1,6 +1,5 @@
 <div class="app-content container">
     <h2 class="title-category">AGREGAR PRODUCTOS</h2>
-
     <!-- Formulario para agregar productos -->
     <div class="form-add-product-container">
         <form id="addProductForm" enctype="multipart/form-data" class="row mb-5">
@@ -10,8 +9,8 @@
                     <input type="text" name="title" placeholder="Título" id="title" class="form-control">
                 </div>
                 <div class="mb-3">
-                    <label for="description" class="form-label">Descripción </label>
-                    <input type="text" name="description" placeholder="Producto a agregar" id="description" class="form-control">
+                    <label for="description" class="form-label">Descripción (Separar los ingredientes con comas ",")</label>
+                    <input type="text" name="description" placeholder="Ingredientes" id="description" class="form-control">
                 </div>
                 <div class="mb-3">
                     <label for="code" class="form-label">Código</label>
@@ -30,12 +29,12 @@
                 <div class="mb-3">
                     <label for="category" class="form-label">Categoría</label>
                     <select name="category" class="form-select" id="category">
-                        <option value="Ropa">Ropa</option>
-                        <option value="deporte">deporte</option>
+                        <option value="vegano">Ropa</option>
+                        <option value="vegetariano">deporte</option>
                     </select>
                 </div>
                 <div class="pt-md-4 pt-0 btn-add-product-container">
-                    <button type="submit" class="">Agregar</button>
+                    <button type="submit" class="btn-add-product">Agregar</button>
                 </div>
             </div>
         </form>
